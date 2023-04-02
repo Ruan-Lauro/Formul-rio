@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Web tutorials">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <form action="" method="get">
+        <section class="form">
+            <header>
+                <h1>Cadastro</h1>
+            </header>
+    
+            <main>
+                <section class="pessoal">
+                    <h2>Pessoal</h2>
+                    <div class="config" >
+                        <label for="nome_login">Nome</label>
+                        <input placeholder="Seu nome" class="style" name="nome_login" type="text">
+                    </div>
+                    <div class="config">
+                        <label for="email_login">E-mail</label>
+                        <input placeholder="Seu e-mail"
+                        class="style" type="email" name="email_login">
+                    </div>
+                    <div class="config">
+                        <label for="senha_login">Senha</label>
+                        <input placeholder="Sua senha" class="style" type="senha_login" name="senha_login">
+                    </div>
+                    <div class="config">
+                        <label for="data_login">Data de Nascimento</label>
+                        <input class="style" type="date" name="data_login" id="data_login">
+                    </div>
+                    <div class="config">
+                        <label for="sexo_login">Sexo</label>
+                        <select class="style"  name="sexo_login" id="sexo">
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </div>
+                </section>
+    
+                <section class="endereco">
+                    <h2>Endereço</h2>
+                    <div class="config">
+                        <label for="cep">CEP</label>
+                        <input placeholder="Seu CEP" class="style" type="number" name="cep">
+                    </div>
+                    <div class="config">
+                        <label for="logradouro">Logradouro</label>
+                        <input placeholder="Seu Longradouro" class="style" type="text" name="logradouro">
+                    </div>
+                    <div class="config">
+                        <label for="numero">Número</label>
+                        <input placeholder="Seu número" class="style" type="number" name="numero">
+                    </div>
+                    <div class="config">
+                        <label for="bairro">Bairro</label>
+                        <input placeholder="Seu bairro" class="style" type="text" name="bairro">
+                    </div>
+                    <div class="config">
+                        <label for="cidade">Cidade</label>
+                        <input placeholder="Sua cidade" class="style" type="text" name="cidade">
+                    </div>
+                    <div class="config">
+                        <label for="estado">Estado(UF)</label>
+                        <input placeholder="Seu estado" class="style" type="text" name="estado">
+                    </div>
+                </section>
+                
+               <footer>
+                <div class="con" id="con-um">
+                    <input class="submit" type="submit">
+                </div>
+                <div class="con">
+                    <input class="submit" type="reset">
+                </div>
+               </footer>
+
+            </main>
+    
+            <div>
+                <footer>
+                    <p>Já tenho cadastro</p>
+                    <a href="index.html">Login</a>
+                </footer>
+            </div>
+    
+        </section>
+    </form>
+</body>
+</html>
