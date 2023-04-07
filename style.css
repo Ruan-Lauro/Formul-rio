@@ -46,7 +46,7 @@ main{
 }
 
 .email input{
-    height: 32px;
+    height: 40px;
     border: 1px solid #D7D7D7;
     border-radius: 5px;
     color:#016671ac;
@@ -66,7 +66,7 @@ input::placeholder{
 }
 
 .senha input{
-    height: 32px;
+    height: 40px;
     border: 1px solid #D7D7D7;
     border-radius: 5px;
     font-size: 16px;
@@ -139,18 +139,62 @@ footer a:hover{
 }
 
 @media (max-width:518px){
+    body{
+        display: block;
+        height: 100%;
+    }
+
     .form{
-        width: 400px;
+        width: 100%;
+        border: 0px;
+        padding-top: 41%;
+    }
+
+    header{
+        margin-bottom: 50px;
+    }
+
+    header h1{
+        font-size: 70px;
+    }
+
+    .email{
+        margin-bottom: 40px;
+    }
+
+    .email input{
+        height: 50px;
+    }
+
+    .senha input{
+        height: 50px;
+    }
+
+    .marca{
+        margin-bottom: 100px;
+    }
+
+    .submit{
+        margin-bottom: 60px;
+    }
+
+    .submit input{
+        padding: 25px;
+        font-size: 22px;
     }
 
     footer{
         flex-direction: column;
-        padding: 5px 0;
+        padding: 10% 0;
     }
 }
 
 @media (max-width:418px){
-    .form{
-        width: 300px;
+    .email input{
+        height: 50px;
+    }
+
+    .senha input{
+        height: 50px;
     }
 }
